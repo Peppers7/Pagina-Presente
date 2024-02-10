@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Protest+Strike&display=swap');
+
+:root{
+    --cor-principal: #df89ae;;
+    --font-titulo: "Anton", sans-serif;
+    --font-paragrafo: "Dancing Script", cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #ffffff;
+    /*background-image: url("/Alura\ desafios/css/Fundo.jpg");
+    background-position: 300vh;*/
+}
+
+.cabecalho{
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    background-color: var(--cor-principal);
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    margin-right: 50%;
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: var(--font-paragrafo);
+    font-weight: 700;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    padding:  8% 15%;
+  
+}
+
+.apresentacao__sessao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.apresentacao__sessao__inicio{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    gap: 40px;
+     
+}
+
+.apresentacao__sessao__inicio__titulo{
+    font-size: 50px;
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    color: var(--cor-principal);
+}
+
+.apresentacao__sessao__inicio__titulo__paragrafo{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Dancing Script", cursive;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 15px;
+    background-color: rgba(160, 91, 192, 0.385);
+}
+.imagens__definicao{
+    width: 25%;
+    margin: 25px;
+    box-sizing: border-box;
+    border: 1px solid #AE4FFA;
+}
+
+.rodape{
+    color: #ffffff;
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    background-color: var(--cor-principal);
+    padding: 24px;
+    font-size: 30px;
+
+}
