@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Protest+Strike&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Protest+Strike&display=swap');
 
 :root{
     --cor-principal: #df89ae;;
@@ -42,6 +42,7 @@ body{
     display: flex;
     align-items: center;
     padding:  8% 15%;
+    justify-content: space-between;
   
 }
 
