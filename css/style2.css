@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400..700&family=Protest+Strike&display=swap');
 
 :root{
     --cor-principal: #df89ae;;
@@ -23,11 +23,12 @@ body{
     padding: 2%;
     justify-content: center;
     background-color: var(--cor-principal);
+    align-items: center;
 }
 .cabecalho__menu{
     display: flex;
     gap: 80px;
-    margin-right: 50%;
+    
 }
 
 .cabecalho__menu__link{
@@ -86,9 +87,14 @@ body{
 }
 .imagens__definicao{
     width: 25%;
-    margin: 25px;
+    margin: 10px;
     box-sizing: border-box;
     border: 1px solid #AE4FFA;
+}
+
+.imagens__definicao2{
+    width: 25%;
+   
 }
 
 .rodape{
